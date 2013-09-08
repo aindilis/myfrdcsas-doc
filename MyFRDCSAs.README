@@ -1,0 +1,39 @@
+README - This document
+
+myfrdcsa-1.0 
+
+	This is the first version of the FRDCSA.  It is in its
+	unaltered state.  No attempt (beyond the original attempt with
+	Task1) has been made to release it.  It will be continued to
+	be developed.  It will probably not be released.
+
+myfrdcsa-1.1
+
+	This is an attempt to release/partially fork the FRDCSA.  It
+	works by copying all the perl code and scripts to a new
+	directory structure.  These files are then vetted for license
+	compliance.  Then, tests are made to run the files to see if
+	they still perform as desired.  Files are judiciously copied
+	over as needed, licensing permitting.  The license for all
+	files is made clear.  Installers via CPAN and Debian, plus
+	others, are created and the code is installed.  This includes
+	a CPAN installer for the myfrdcsa-1.1 itself.  Tests are run
+	in VMs that are deployed to test the distribution, for
+	different operating systems.  Stuff is expected to not be in a
+	perfectly working state.  It should be backwards compatible
+	for the most part with myfrdcsa-1.0.  It will be the first
+	release of the FRDCSA.
+
+myfrdcsa-1.5
+
+	This is a rewrite of the core functionality of the FRDCSA,
+	especially UniLang, FreeKBS2, etc.  It maintains a kind of
+	compatibility with FRDCSA-1.0 in that it should work with
+	similar programs with relatively little modification.
+	Everything is reengineered for better
+	coding/documentation/test standards.
+
+myfrdcsa-2.0
+
+	This is the futuristic rewrite where many ideal properties of
+	the FRDCSA are designed to go into.
